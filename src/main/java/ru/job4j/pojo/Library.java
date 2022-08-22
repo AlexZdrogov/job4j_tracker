@@ -3,6 +3,7 @@ package ru.job4j.pojo;
 public class Library {
 
     public static void main(String[] args) {
+
         Book horstmann = new Book("Core Java", 928);
         Book martin = new Book("Clean Code", 464);
         Book sierra = new Book("Head first Java", 720);

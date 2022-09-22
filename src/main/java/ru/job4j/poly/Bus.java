@@ -1,12 +1,11 @@
 package ru.job4j.poly;
 
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Bus implements Transport {
 
     @Override
     public void drive() {
-
+        System.out.println("Drive!");
     }
 
     @Override
